@@ -1,51 +1,68 @@
 body {
     background-image: url("../img/background.png");
-    size: 100%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#burger{
+    background-image: url("../img/burger.png");
+    background-repeat: no-repeat;
+
+
 }
 #row{
-    margin-left: 30px;
+    padding-left: 100px;
 }
 h1{
     color: red;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fontdiner Swanky', cursive;
     font-weight: bolder;
     text-align: center;
     padding: 10px;
-    font-size: 24pt;
+    font-size: 40pt;
 
 }
 h2{
     color: red;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fontdiner Swanky', cursive;
     font-weight: bolder;
     text-align: center;
     padding: 10px;
-    font-size: 20pt;
+    font-size: 30pt;
 
 }
 ul {
     color: red;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fontdiner Swanky', cursive;
     font-weight: bolder;
     text-align: center;
     padding: 10px;
-    font-size: 10pt;
+    font-size: 16pt;
 }
 h3{
     color: red;
-    font-family: 'Poiret One', cursive;
-    font-weight: bolder;
-    text-align: center;
-    padding: 10px;
-    font-size: 15pt;
-}
-form {
-    color:#000000;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Fontdiner Swanky', cursive;
     font-weight: bolder;
     text-align: center;
     padding: 10px;
     font-size: 20pt;
+}
+#label{
+    color: red;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    font-size: 20pt;
+}
+form {
+    color:#000000;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    font-size: 16pt;
 }
 img{
     height: 250px;
